@@ -1,0 +1,40 @@
+/*Estilos para colores, se pueden seleccionar de la misma paleta que ofrece el editor de texto
+o se pueden integrar desde afuera, el profe recomienda la pagina coolors.co, donde podemos crear
+paletas aleatorias */
+.colores {
+    color: red;
+}
+.color-hexadecimal{
+    color: #306BAC;
+}
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+/* El rgba tiene un valor al final que corresponde a la opacidad, y será
+un valor entre 0 y 1 que nos dice cual es la opacidad de ese color , con 0.2
+la transparencia es bastante grande, pero si yo le pusiera 1, sería un rgb normal */
+.color-rgba {
+    color: rgba(10, 20, 30, 0.2);
+}
+
+/*Fondos*/
+
+.fondo {
+    background-color: #306BAC;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/89a052ddc6d368ce93d9067e8444c36a3558efe7/f9e10/static/triangle_background2-6eded4a7ad80c007fb65f02c828e5dd0.jpg);
+    background-position: right bottom;
+}
+.fondo-interno {
+    background-image:url(fondo.jpg)
+}
+
+/* Tamaños */
+.ancho{
+    background-color:chartreuse;
+    width: 100px;
+}
+
+.alto {
+    background-color: aqua;
+    height:500px;
+}
